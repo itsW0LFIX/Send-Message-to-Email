@@ -13,7 +13,7 @@ public class sendEmail {
     
     public void send(String toEmailAdd,String Subject, String Message){
         SimpleMailMessage smm = new SimpleMailMessage();
-        smm.setFrom("relaxmy00@gmail.com");
+        smm.setFrom("youremail");
         smm.setTo(toEmailAdd);
         smm.setSubject(Subject);
         smm.setText(Message);
